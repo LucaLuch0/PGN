@@ -1,9 +1,45 @@
-Cat fades in:
-		Ah it seems youre in a spell duel! (display for 5 seconds)
-		What could you have done THIS time, Another magic stone upset perhaps? (display for 6 seconds)
-		--- (few seconds of no text display) ---
+Cat:
+		Malek! Watch out, Malek! You're in a duel!
+
+		"Who's Malek"? Did you hit your head on that tree? Pick up your staff!
 		
-		Well not much to do now but defend yourself, Ready yourself! (display for 6 seconds) (fade text box and image slowly)
+		Ready yourself, now! Do I need to show you how to fight?
 		
-		--- Begin the first scene (scripted first fight) ---
-		(fade over 2 seconds into scripted fight)
+		--- first scene (scripted first fight) ---
+		
+Cat:
+		Nice one! You defeated the EVIL Kelam and retrieved his crystal balls.
+
+		...Well... your staff did at least...
+		
+		Who am I? Must've been a hard tree. I'm your lucky cat familiar, of course!
+
+		Now, defeat his golem and let's escape this forest.
+
+		--- second scene (golem fight) ---
+
+Cat:
+		What a spooky castle this is... let's go in!
+
+		What do you mean, you're not sure? Maybe use the D. O. R. E.?
+
+		...
+
+		The DOOR!
+
+		Don't look at me like tha... WOAH, WATCH OUT! DRAGON!
+
+		--- third scene (dragon fight) ---
+
+Cat:
+		...okay.. okay... you got me...
+
+		:burps:
+
+		There was never a dragon... :burps: ...or a cat.
+
+		I was just trying to scam you.
+
+		Moral of the story: Watch out for scammers pretending to be lucky familiars pretending to be dragons trying to scam you!
+
+		Sometimes they really look like the real deal!
