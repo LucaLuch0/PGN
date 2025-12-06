@@ -1,0 +1,9 @@
+Cat fades in:
+		Ah it seems youre in a spell duel! (display for 5 seconds)
+		What could you have done THIS time, Another magic stone upset perhaps? (display for 6 seconds)
+		--- (few seconds of no text display) ---
+		
+		Well not much to do now but defend yourself, Ready yourself! (display for 6 seconds) (fade text box and image slowly)
+		
+		--- Begin the first scene (scripted first fight) ---
+		(fade over 2 seconds into scripted fight)
