@@ -1,0 +1,27 @@
+Game open :
+			menu start button selected	
+			open/follow script below
+		cat start: Open monolougue
+		action menu open 4 choices "thunderbolt, fireball, haste, slow"
+		CAT(h): "prepare a spell to fight the wizard," 
+		(scripted press of fireball,) (press screen in button selection to continue from this point)
+--->>
+		(Que anims for sending spell out, and conact on enemy wizard,)
+		(Down health by 35 percent,)
+		(Enemy wizard scripted "haste" [show Hue change])
+CAT(h): "Different spell contain different ascpects (different results)," 
+		(scripted press of slow,)
+--->>
+		(Que anims for sending spell out, and effect shown on enemy wizard, [remove red hue with a buffer animation, replace with a pastel blue])
+		(Down health by 35 percent,)
+		(Enemy wizard scripted "thunderbolt")
+		(Que anims for sending spell out, and conact on enemy own,)
+		(Enemy lowers player hp by 45 percent)
+	--->>		
+		script repetitions
+			enemy ai randomly select from its 4 spells
+
+	
+Black cat appearance in top corner disappears, enter spell selection screen
+	Reuse menu buttons for spell buttons differnt hue but same outer design
+	
