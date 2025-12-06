@@ -14,7 +14,9 @@ Game open :
 		(Down health by 35 percent,)
 		(Enemy wizard scripted "thunderbolt")
 		(Que anims for sending spell out, and conact on enemy own,)
-		(Enemy lowers player
-	
-		
+		(Enemy lowers player hp by 45 percent)
+			
+		script repetitions
+			enemy ai randomly select from its 4 spells
+
 	
