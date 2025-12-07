@@ -12,9 +12,6 @@ public class AttackBase : ScriptableObject
     [TextArea][SerializeField] private string description;
     public string Description => description;
 
-    //[SerializeField] private CreatureType type;
-    //public CreatureType Type => type;
-
     [SerializeField] private int power;
     public int Power => power;
 

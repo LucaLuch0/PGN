@@ -28,10 +28,18 @@ public class Creature
         set => _hp = value;
     }
 
+    public int MaxHP;
     public Creature(CreatureBase creatureBase)
     {
         _base = creatureBase;
 
+        MaxHP = _base.MaxHP;
+
+        if (MaxHP <= 0)
+        {
+            MaxHP = 1;
+            Debug.LogWarning("Warning: MaxHP was 0. I forced it to 1 to prevent a crash.");
+        }
         _hp = MaxHP;
         _attacks = new List<Attack>();
 
@@ -39,10 +47,20 @@ public class Creature
         {
             if (_attacks.Count > 4)
                 break;
+            _attacks.Add(new Attack(attack.Attack));
         }
+
     }
 
-    public int MaxHP;
-    
+
+    public bool TakeDamage(int damage)
+    {
+        _hp -= damage;
+
+        if (_hp < 0)
+            _hp = 0;
+
+        return _hp == 0;
+    }
 }
 
