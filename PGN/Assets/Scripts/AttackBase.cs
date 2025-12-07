@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "Attack", menuName = "Creature/New Attack")]
 public class AttackBase : ScriptableObject
