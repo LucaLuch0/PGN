@@ -1,0 +1,12 @@
+player casts fireball
+
+enemy casts haste on self
+
+player casts slowness on enemy
+
+enemy casts thunderbolt
+
+player casts thunderbolt
+
+---end---
+
