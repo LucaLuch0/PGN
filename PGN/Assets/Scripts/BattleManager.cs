@@ -11,18 +11,21 @@ public class BattleManager : MonoBehaviour
     [SerializeField] BattleUnit enemyUnit;
     [SerializeField] BattleHUD enemyHUD;
 
+    [SerializeField] BattleDialogBox battleDialogBox;   
     private void Start()
     {
-        SetupBattle();
+        StartCoroutine(SetupBattle());
     }
 
-    private void SetupBattle()
+    IEnumerator SetupBattle()
     {
         playerUnit.SetupCreature();
         playerHUD.SetCreatureData(playerUnit.Creature);
 
         enemyUnit.SetupCreature();
         enemyHUD.SetCreatureData(enemyUnit.Creature);
+
+        yield return (battleDialogBox.SetDialog($"An {enemyUnit.Creature.Base.name} creature has appeared"));
 
     }
 }

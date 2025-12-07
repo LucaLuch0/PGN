@@ -16,6 +16,6 @@ MonoBehaviour:
   creatureName: Player
   description: 
   frontSprite: {fileID: 3536530938591342608, guid: 0f0d7e3c5b948114aa2cb1d8e116f20d, type: 3}
-  backSprite: {fileID: 3536530938591342608, guid: 0f0d7e3c5b948114aa2cb1d8e116f20d, type: 3}
+  backSprite: {fileID: 2996981843993039101, guid: 09129a4a5cc4a994ea79d5f16fa5590d, type: 3}
   maxHP: 100
   learnableAttacks: []

@@ -15,7 +15,7 @@ MonoBehaviour:
   ID: 1
   creatureName: TestEnemy
   description: 
-  frontSprite: {fileID: 3536530938591342608, guid: 0f0d7e3c5b948114aa2cb1d8e116f20d, type: 3}
+  frontSprite: {fileID: 5632175625068740296, guid: 39d9aa05e1e0ffa479bafa87fd4154d7, type: 3}
   backSprite: {fileID: 3536530938591342608, guid: 0f0d7e3c5b948114aa2cb1d8e116f20d, type: 3}
   maxHP: 100
   learnableAttacks: []
