@@ -1,0 +1,46 @@
+Cat:
+		Malek! Watch out, Malek! You're in a duel!
+
+		"Who's Malek"? Did you hit your head on that tree? Pick up your staff!
+		
+		Ready yourself, now! Do I need to show you how to fight?
+		
+		--- first scene (scripted first fight) ---
+		
+Cat:
+		Nice one! You defeated the EVIL Kelam and retrieved his crystal balls.
+
+		...Well... your staff did at least...
+		
+		Who am I? Must've been a hard tree. I'm your lucky cat familiar, of course!
+
+		Now, defeat his golem and let's escape this forest.
+
+		--- second scene (golem fight) ---
+
+Cat:
+		What a spooky castle this is... let's go in!
+
+		What do you mean, you're not sure? Maybe use the D. O. R. E.?
+
+		...
+
+		The DOOR!
+
+		Don't look at me like tha... WOAH, WATCH OUT! DRAGON!
+
+		--- third scene (dragon fight) ---
+
+Cat:
+		...okay.. okay... you got me...
+
+		:burps:
+
+		There was never a dragon... :burps: ...or a cat.
+
+		I was just trying to get your "magic" data.
+
+		I thought if you followed all my instructions, I could catch you with my dragon.
+
+		And I would've got away with it, too, if it weren't for your meddling MLG skillz!
+
