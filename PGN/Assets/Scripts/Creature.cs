@@ -47,10 +47,20 @@ public class Creature
         {
             if (_attacks.Count > 4)
                 break;
+            _attacks.Add(new Attack(attack.Attack));
         }
+
     }
 
-    
-    
+
+    public bool TakeDamage(int damage)
+    {
+        _hp -= damage;
+
+        if (_hp < 0)
+            _hp = 0;
+
+        return _hp == 0;
+    }
 }
 

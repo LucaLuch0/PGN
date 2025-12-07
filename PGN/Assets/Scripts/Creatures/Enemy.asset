@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f2809219dd17bd40b5015d4b70d4de8, type: 3}
-  m_Name: Enemy1
+  m_Name: Enemy
   m_EditorClassIdentifier: 
   ID: 1
-  creatureName: TestEnemy
+  creatureName: Kelam
   description: 
   frontSprite: {fileID: 5632175625068740296, guid: 39d9aa05e1e0ffa479bafa87fd4154d7, type: 3}
   backSprite: {fileID: 3536530938591342608, guid: 0f0d7e3c5b948114aa2cb1d8e116f20d, type: 3}
-  maxHP: 100
-  learnableAttacks: []
+  maxHP: 60
+  learnableAttacks:
+  - attack: {fileID: 11400000, guid: 091cdc44f84f9b14b9ba30215880918e, type: 2}
+    level: 0
+  - attack: {fileID: 11400000, guid: fba48293932db7140b3af19342cb8fe5, type: 2}
+    level: 1

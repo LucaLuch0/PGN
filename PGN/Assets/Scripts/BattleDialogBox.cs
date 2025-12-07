@@ -6,7 +6,10 @@ using UnityEngine.UI;
 public class BattleDialogBox : MonoBehaviour
 {
     [SerializeField] Text dialogText;
-
+    [SerializeField] private GameObject attackSelect;
+    [SerializeField] private List<Text> attackTexts;
+    [SerializeField] private List<GameObject> attackButtons;
+    [SerializeField] private BattleUnit playerUnit;
     public bool isWriting = false;
     public float charactersPerSecond;
     public IEnumerator SetDialog(string message)
@@ -18,6 +21,16 @@ public class BattleDialogBox : MonoBehaviour
             dialogText.text += character;
             yield return new WaitForSeconds(1 / charactersPerSecond);
         }
-        yield return null;
+        yield return new WaitForSeconds(1f);
+    }
+    
+    public void ToggleDialogText(bool activated)
+    {
+        dialogText.enabled = activated;
+    }
+
+    public void ToggleAttacks(bool activated)
+    {
+        attackSelect.SetActive(activated);
     }
 }

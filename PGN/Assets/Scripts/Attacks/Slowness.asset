@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29aa3ef45bd35ab48802c10b8abbb4a5, type: 3}
-  m_Name: DefaultAttack
+  m_Name: Slowness
   m_EditorClassIdentifier: 
-  name: DefaultAttack
-  description: Do 20 damage to the enemy
-  power: 20
-  accuracy: 90
+  name: Slowness
+  description: 
+  power: 0
+  accuracy: 100

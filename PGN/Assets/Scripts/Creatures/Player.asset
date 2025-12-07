@@ -13,9 +13,17 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   ID: 0
-  creatureName: Player
+  creatureName: Malek
   description: 
   frontSprite: {fileID: 3536530938591342608, guid: 0f0d7e3c5b948114aa2cb1d8e116f20d, type: 3}
   backSprite: {fileID: 2996981843993039101, guid: 09129a4a5cc4a994ea79d5f16fa5590d, type: 3}
   maxHP: 100
-  learnableAttacks: []
+  learnableAttacks:
+  - attack: {fileID: 11400000, guid: 091cdc44f84f9b14b9ba30215880918e, type: 2}
+    level: 0
+  - attack: {fileID: 11400000, guid: fba48293932db7140b3af19342cb8fe5, type: 2}
+    level: 0
+  - attack: {fileID: 11400000, guid: 680d1ae79e13f0049a09bedc9dd9b820, type: 2}
+    level: 0
+  - attack: {fileID: 11400000, guid: 3da14830e06e8bd44809fade423d09a8, type: 2}
+    level: 0
