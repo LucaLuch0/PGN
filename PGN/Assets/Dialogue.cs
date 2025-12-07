@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Time.timeScale == 0)
+        {
+            return;
+        }
         if (Input.GetMouseButtonDown(0))
         {  
             if(textComponent.text== lines[index])
@@ -60,7 +65,7 @@ public class Dialogue : MonoBehaviour
         }
        else
         {
-            gameObject.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
